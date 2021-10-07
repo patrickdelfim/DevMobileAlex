@@ -1,0 +1,867 @@
+{
+"results": [
+{
+"question": "Qual dos grupos apresentados abaixo apresenta apenas paradigmas de programação?",
+"correct_answer": "Imperativo, Funcional, Lógico e Orientado a Objetos.",
+"incorrect_answers": [
+"Algol, Basic, Lógico e Orientado a Objetos.",
+"Imperativo, Programar, Lógico e Orientado a Objetos.",
+"Orientado a Objetos, Java, Imperativo e Lógico."
+]
+},
+{
+"question": "O que significa concatenar?",
+"correct_answer": "Unir dados de modo lógico ou manter ligação ou conexão entre eles.",
+"incorrect_answers": [
+"Trata-se de um conjunto de caracteres.",
+"Configurar o tipo de uma variável.",
+"Dividir duas variáveis."
+]
+},
+{
+"question": "Onde as variáveis ficam armazenadas?",
+"correct_answer": "Na memória RAM do computador.",
+"incorrect_answers": [
+"No programa/software.",
+"No banco de dados.",
+"No banco de dados, no software e na memória RAM."
+]
+},
+{
+"question": "Em linguagem de programação, if representa que tipo de estrutura?",
+"correct_answer": "Estrutura Condicional.",
+"incorrect_answers": [
+"Loop infinito.",
+"Estrutura de passagem de parâmetro.",
+"Laço repetitivo."
+]
+},
+{
+"question": "Qual a diferença de RAM e ROM?",
+"correct_answer": "RAM é volátil, ROM é não volátil.",
+"incorrect_answers": [
+"RAM não é volátil, ROM é volátil.",
+"ROM armazena mais memória.",
+"RAM armazena mais memória."
+]
+},
+{
+"question": "Para instanciar uma classe usamos:",
+"correct_answer": "new ClasseNome();",
+"incorrect_answers": [
+"ClasseNome();",
+"$this->classeNome();",
+"Classe(Nome);"
+]
+},
+{
+"question": "PHP é uma linguagem de:",
+"correct_answer": "Programação WEB.",
+"incorrect_answers": [
+"Marcação de páginas WEB.",
+"Estruturas de Dados.",
+"Estilização de páginas WEB."
+]
+},
+{
+"question": "O que é Hardware?",
+"correct_answer": "Parte Física do Computador.",
+"incorrect_answers": [
+"Parte Lógica do Computador.",
+"Parte Lógica e Física do Computador.",
+"Parte do Sistema Operacional."
+]
+},
+{
+"question": "Para que serve a cláusula GROUP BY?",
+"correct_answer": "Agrupar registros em subgrupos baseados em colunas ou valores retornados por uma expressão.",
+"incorrect_answers": [
+"Agrupar registros de acordo com o tipo de dados declarado na criação da tabela.",
+"Agrupar dados baseando-se no resultado de uma consulta que utilize exclusivamente LEFT JOIN.",
+"Agrupar dados em consultas realizadas por meio de Stored Procedures disparadas por um Tigger Master."
+]
+},
+{
+"question": "Qual dos seguintes NÃO é um tipo de JOIN usado em SQL?",
+"correct_answer": "EXTRA JOIN.",
+"incorrect_answers": [
+"INNER JOIN.",
+"OUTER JOIN.",
+"CROSS JOIN."
+]
+},
+{
+"question": "Qual declaração devemos usar para efetuar uma consulta a um banco de dados?",
+"correct_answer": "SELECT.",
+"incorrect_answers": [
+"GET.",
+"CONSULT.",
+"QUERY."
+]
+},
+{
+"question": "Precisamos classificar em ordem os resultados obtidos em uma consulta SQL. Qual das seguintes declarações deve ser utilizada para esse fim?",
+"correct_answer": "ORDER BY.",
+"incorrect_answers": [
+"SORT BY.",
+"ORDENATE.",
+"CLASSIFY BY."
+]
+},
+{
+"question": "Caso você necessite inserir um novo registro no banco de dados, qual declaração deve utilizar?",
+"correct_answer": "INSERT INTO.",
+"incorrect_answers": [
+"ADD REGISTER.",
+"INSERT RECORD.",
+"NEW DATA."
+]
+},
+{
+"question": "Para excluir um registro único de uma tabela, qual das seguintes declarações pode ser usada?",
+"correct_answer": "DELETE.",
+"incorrect_answers": [
+"TRUNCATE.",
+"REMOVE.",
+"ERASE."
+]
+},
+{
+"question": "O que significa o comando printf na linguagem C?",
+"correct_answer": "Escreva.",
+"incorrect_answers": [
+"Pare.",
+"Leia.",
+"Calcule."
+]
+},
+{
+"question": "O que significa o comando scanf na linguagem C?",
+"correct_answer": "Leia.",
+"incorrect_answers": [
+"Pare.",
+"Escreva.",
+"Calcule."
+]
+},
+{
+"question": "Para uma nota de um aluno qual tipo de dados devo utilizar?",
+"correct_answer": "float.",
+"incorrect_answers": [
+"char.",
+"int.",
+"boolean."
+]
+},
+{
+"question": "Para uma variável nome completo de um aluno, qual será o tipo de dados?",
+"correct_answer": "cadeia de caracteres.",
+"incorrect_answers": [
+"caractere.",
+"inteiro.",
+"real."
+]
+},
+{
+"question": "Entende-se por engenharia de requisitos: ",
+"correct_answer": "As atividades envolvidas em descobrimento, documentação e manutenção de um conjunto de requisitos para um sistema baseado em computador.",
+"incorrect_answers": [
+"A especificação de como o software será projetado física e logicamente.",
+"A verificação e validação da conformidade das necessidades do software com o que foi implementado.",
+"Todos os artefatos para planejar o desenvolvimento de um software."
+]
+},
+{
+"question": "Quais são as 3 principais características do java?",
+"correct_answer": "Segurança, robusteza e portabilidade.",
+"incorrect_answers": [
+"Segurança, não compila e portabilidade.",
+"Segurança, fácil desenvolvimento de vírus e portabilidade.",
+"Segurança, compila e portabilidade."
+]
+},
+{
+"question": "Para obtermos o valor de um atributo de um elemento, usamos: ",
+"correct_answer": "element.getAttribute('atributo');",
+"incorrect_answers": [
+"getAttribute(element, 'atributo');",
+"element.get('atributo');",
+"getAttibute(atributo -> elemento);"
+]
+},
+{
+"question": "Para exportar uma classe, usamos: ",
+"correct_answer": "export class ClassName {...}.",
+"incorrect_answers": [
+"exports class className : default {}.",
+"class ClassName : exports {...}.",
+"export ClassName.{}"
+]
+},
+{
+"question": "O valor de uma constante pode ser mudado após a sua declaração?",
+"correct_answer": "Não, uma vez declarado o valor não pode ser modificado.",
+"incorrect_answers": [
+"Sim, desde que a constante não tenha sido utilizada.",
+"Sim, uma constante pode ter seu valor mutável.",
+"Nenhuma das anteriores."
+]
+},
+{
+"question": "Para requisitar uma informação usando o protocolo GET, podemos usar: ",
+"correct_answer": "fetch('url');",
+"incorrect_answers": [
+"request_uri('url');",
+"get('url');",
+"set('url');"
+]
+},
+{
+"question": "Usamos try/catch para: ",
+"correct_answer": "Tratar instruções que possam gerar erros, e assim, lançar exceções.",
+"incorrect_answers": [
+"Podemos usar essa estrutura quando queremos acessar elementos nativos do navegador.",
+"Funciona como o if/else, verifica se uma operação foi executada.",
+"Nenhuma das anteriores."
+]
+},
+{
+"question": "A função getElementsByClassName(), retorna que tipo de conteúdo?",
+"correct_answer": "Retorna um array de elementos que contém a classe informada no atributo class.",
+"incorrect_answers": [
+"Retorna um JSON contendo as informações dos elementos.",
+"Retorna um único elemento.",
+"Retorna vários elementos."
+]
+},
+{
+"question": "Qual estrutura de dados é mais adequada para armazenar a estrutura do diretório do sistema de arquivos de um sistema operacional?",
+"correct_answer": "Árvore.",
+"incorrect_answers": [
+"Lista.",
+"Pilha.",
+"Fila."
+]
+},
+{
+"question": "Assinale a alternativa que apresenta uma motivação válida para a passagem de parâmetro por valor para uma função.",
+"correct_answer": "Garantia de que o valor da variável original não será alterado.",
+"incorrect_answers": [
+"Garantia do uso do valor mais atual.",
+"Compartilhamento de memória.",
+"Economia de memória."
+]
+},
+{
+"question": "A que corresponde este número binário: 0110?",
+"correct_answer": "6.",
+"incorrect_answers": [
+"2.",
+"5.",
+"4."
+]
+},
+{
+"question": "Como se escreve em binário o número 2?",
+"correct_answer": "010.",
+"incorrect_answers": [
+"011.",
+"001.",
+"110."
+]
+},
+{
+"question": "A linguagem de programação SCRATCH é uma linguagem: ",
+"correct_answer": "Programação por blocos.",
+"incorrect_answers": [
+"Programação por figuras.",
+"Programação sequencial.",
+"Programação por elementos."
+]
+},
+{
+"question": "Sua função é transmitir e receber dados através da rede, gera sinais que são captados na rede e controla o fluxo de dados. Que equipamento de rede possui essas funções?",
+"correct_answer": "Placa de rede.",
+"incorrect_answers": [
+"Hub.",
+"Switch.",
+"Roteador."
+]
+},
+{
+"question": "Qual a topologia de rede é mais usada e possui um ponto central?",
+"correct_answer": "Estrela.",
+"incorrect_answers": [
+"Barramento.",
+"Estrela hierárquica.",
+"Anel."
+]
+},
+{
+"question": "Qual o comando de rede utilizado para verificar se existe conexão entre estações de trabalho?",
+"correct_answer": "ping.",
+"incorrect_answers": [
+"ipconfig.",
+"netstat.",
+"dir."
+]
+},
+{
+"question": "Qual protocolo de comunicação usado para efetuar downloads de arquivos?",
+"correct_answer": "- FTP.",
+"incorrect_answers": [
+"- POP3.",
+"- UTP.",
+"- SMTP."
+]
+},
+{
+"question": "Assinale qual item de hardware que pode ser compartilhado em uma rede.",
+"correct_answer": "Impressora.",
+"incorrect_answers": [
+"Mouse.",
+"Monitor.",
+"Hard-disk (HD)."
+]
+},
+{
+"question": "Em um sistema operacional típico, os estados de um processo são: ",
+"correct_answer": "Executando, bloqueado e pronto.",
+"incorrect_answers": [
+"Ativo, desocupado, finalizado e executando.",
+"Bloqueado, desbloqueado, ativo e suspenso.",
+"Parado, ocupado, em execução e finalizado."
+]
+},
+{
+"question": "No multiprocessamento, um programa pode ser dividido em partes independentes que são executadas separadamente, em vários processadores. Essas partes são conhecidas como:",
+"correct_answer": "Threads.",
+"incorrect_answers": [
+"Gatilhos.",
+"Sistemas de arquivo.",
+"Firmwares."
+]
+},
+{
+"question": "A técnica de memória virtual é gerenciada pelo(a):",
+"correct_answer": "Sistema operacional.",
+"incorrect_answers": [
+"BIOS.",
+"Memória principal.",
+"Cache."
+]
+},
+{
+"question": "Qual das alternativas NÃO apresenta um problema clássico de sincronização?",
+"correct_answer": "Gerenciamento de processos.",
+"incorrect_answers": [
+"Barbeiro dorminhoco.",
+"Jantar dos filósofos.",
+"Leitores e escritores."
+]
+},
+{
+"question": "Quais são as etapas de um planejamento de banco de dados?",
+"correct_answer": "Modelagem conceitual; modelagem lógica; modelagem física.",
+"incorrect_answers": [
+"Modelagem lógica; modelagem física; modelagem conceitual.",
+"Modelagem conceitual; modelagem física; modelagem lógica.",
+"Modelagem física; modelagem conceitual; modelagem lógica."
+]
+},
+{
+"question": "Quais são os principais tipos de níveis de relacionamentos entre entidades?",
+"correct_answer": "Muitos para muitos, 1 para 1, 1 para muitos.",
+"incorrect_answers": [
+"1 para muitos, 1 para todos, 1 para 1.",
+"N para N, máximo e mínimo, 1 e máximo.",
+"1 para 1, 1 para muitos, 1 para nenhum."
+]
+},
+{
+"question": "Qual é a chave que garante a unicidade de um valor em uma coluna?",
+"correct_answer": "Chave única.",
+"incorrect_answers": [
+"Chave de coluna.",
+"Chave primária (PK).",
+"Chave estrangeira (FK)."
+]
+},
+{
+"question": "O que será retornado com o seguinte comando: select * from clientes; ?",
+"correct_answer": "Exibe todos os dados de todas as colunas da tabela clientes.",
+"incorrect_answers": [
+"Exibe todos os dados das tabelas.",
+"Exibe todos os dados de todas as colunas da tabela tb_clientes.",
+"Lista de quais são as colunas da tabela clientes."
+]
+},
+{
+"question": "Qual é a chave que é única, nunca pode ter valores nulos e garante a unicidade de instância?",
+"correct_answer": "Chave primária (PK).",
+"incorrect_answers": [
+"Chave estrangeira (FK).",
+"Chave única.",
+"Chave de instância."
+]
+},
+{
+"question": "Qual a definição de Banco de Dados?",
+"correct_answer": "É uma coleção de dados relacionados.",
+"incorrect_answers": [
+"É um conjunto de pessoas.",
+"É um local que guardamos dinheiro.",
+"É um conjunto de variáveis."
+]
+},
+{
+"question": "Com relação aos princípios dos Bancos de Dados, pode-se afirmar que os principais problemas enfrentados são: ",
+"correct_answer": "Estruturar, armazenar e recuperar os dados.",
+"incorrect_answers": [
+"Backups automatizados, open source fácil, escalabilidade.",
+"Otimização de processos, estrutura com alta elasticidade.",
+"Segurança, produtividade, qualidade."
+]
+},
+{
+"question": "São exemplos de SGBDs, exceto: ",
+"correct_answer": "Netbeans.",
+"incorrect_answers": [
+"Oracle.",
+"MySQL.",
+"PostgreSQL."
+]
+},
+{
+"question": "Toda relação tem que ter pelo menos uma chave primária, e os valores dessa chave podem se repetir.",
+"correct_answer": "Falso.",
+"incorrect_answers": [
+"Verdadeiro."
+]
+},
+{
+"question": "Em um banco de dados relacional, duas tabelas foram concatenadas de forma a atender uma determinada condição. O resultado dessa operação representa a operação relacional de: ",
+"correct_answer": "Junção.",
+"incorrect_answers": [
+"Seleção.",
+"Projeção.",
+"Intersecção."
+]
+},
+{
+"question": "O comando SQL (select campo from tabela) corresponde a uma operação de projeção da álgebra relacional.",
+"correct_answer": "Verdadeiro.",
+"incorrect_answers": [
+"Falso."
+]
+},
+{
+"question": "Atributo na visão Lógica de Banco de Dados recebe o nome de:",
+"correct_answer": "Campo.",
+"incorrect_answers": [
+"Registro.",
+"Tabela.",
+"Arquivo."
+]
+},
+{
+"question": "Entidade é a Tabela na visão Lógica na Teoria do Banco de Dados.",
+"correct_answer": "Verdadeiro.",
+"incorrect_answers": [
+"Falso."
+]
+},
+{
+"question": "O que é a Linguagem SQL?",
+"correct_answer": "Linguagem estruturada de pesquisa.",
+"incorrect_answers": [
+"Linguagem estruturada de programação.",
+"Linguagem estruturada voltada a pesquisa de objetos.",
+"Linguagem orientada objeto."
+]
+},
+{
+"question": "Quais das alternativas abaixo NÃO considerada uma vantagem da utilização de um Sistemas Gerenciador de Banco de dados?",
+"correct_answer": "Proporcionar o aumento da inconsistência e redundância de dados.",
+"incorrect_answers": [
+"Dispor de ferramentas que auxiliem na manutenção e recuperação de dados.",
+"Maior rapidez e disponibilidade de acesso aos dados.",
+"Controle de acessos por vários usuários."
+]
+},
+{
+"question": "O que é uma Tupla?",
+"correct_answer": "Um registro.",
+"incorrect_answers": [
+"Um campo.",
+"Um pseudo SGBD para Desktop.",
+"Uma tabela."
+]
+},
+{
+"question": "Entre os Softwares abaixo, NÃO pode ser definido como um Legítimo SGBD?",
+"correct_answer": "Access.",
+"incorrect_answers": [
+"Firebird.",
+"MySQL.",
+"SQLServer."
+]
+},
+{
+"question": "Qual é o nome da menor unidade de dado em um sistema computacional?",
+"correct_answer": "Bit.",
+"incorrect_answers": [
+"Byte.",
+"Arquivo.",
+"ASCII."
+]
+},
+{
+"question": "BIOS é um programa previamente gravado em memória que, ao ser executado quando o computador é ligado, permite que ele tenha capacidade de funcionamento e que seus recursos possam acessar os componentes de hardware.",
+"correct_answer": "Verdadeiro.",
+"incorrect_answers": [
+"Falso."
+]
+},
+{
+"question": "Ao ligar o computador, o sistema operacional e os programas: ",
+"correct_answer": "São carregados na memória RAM.",
+"incorrect_answers": [
+"Inicializam o hardware do computador.",
+"Operam diretamente do HD.",
+"São recuperados de forma sequencial."
+]
+},
+{
+"question": "Assinale o conjunto de elementos que compõem o processador internamente.",
+"correct_answer": "UC, registradores e ULA.",
+"incorrect_answers": [
+"ULA, registradores e cache.",
+"Cache, ULA e RAM.",
+"E/S, UC e ULA."
+]
+},
+{
+"question": "Qual é o principal componente de um computador?",
+"correct_answer": "Placa mãe.",
+"incorrect_answers": [
+"Processador.",
+"Memória.",
+"Teclado."
+]
+},
+{
+"question": "Na falta de quais destes componentes, você não consegue utilizar um computador?",
+"correct_answer": "Processador.",
+"incorrect_answers": [
+"Mouse.",
+"Teclado.",
+"Leitor de CD ou DVD."
+]
+},
+{
+"question": "As imagens em sites às vezes aparecem tão rápido, por quê?",
+"correct_answer": "Porque o seu computador costuma guardar, num lugar chamado “cache”, as imagens que você busca costumeiramente.",
+"incorrect_answers": [
+"Porque o servidor que você está acessando está na sua cidade.",
+"Porque tem pouca gente usando o site.",
+"Porque a sua internet é banda larga (conexão rápida)."
+]
+},
+{
+"question": "A evolução dos computadores se baseia em quais pontos principais?",
+"correct_answer": "Processamento e armazenamento.",
+"incorrect_answers": [
+"Memórias e facilidade de uso.",
+"Processamento e facilidade de uso.",
+"Processador e memória RAM."
+]
+},
+{
+"question": "Qual o conceito que envolve pessoas e procedimentos que auxiliam usuários quando estes possuem alguma dificuldade no ambiente de trabalho quando usam a informática?",
+"correct_answer": "Help Desk.",
+"incorrect_answers": [
+"Serviço terceirizado.",
+"Assistência Técnica.",
+"Ajuda online."
+]
+},
+{
+"question": "São exemplos de hardware: ",
+"correct_answer": "Memória, leitor de código de barras e placa de rede.",
+"incorrect_answers": [
+"Mouse, placa de vídeo e Windows.",
+"Word, impressora e monitor.",
+"Windows, Linux e DOS."
+]
+},
+{
+"question": "É um tipo de computador que tem como função controlar as demais estações de trabalho quando ligados em uma rede de computadores: ",
+"correct_answer": "Servidor.",
+"incorrect_answers": [
+"Desktop.",
+"Notebook.",
+"PDA."
+]
+},
+{
+"question": "Qual destes NÃO é um desafio enfrentado na engenharia de software?",
+"correct_answer": "Modelagem computacional de sistemas complexos.",
+"incorrect_answers": [
+"Pressão para entrega do software.",
+"Lidar com sistemas antigos.",
+"Heterogeneidade dos sistemas."
+]
+},
+{
+"question": "Qual das opções abaixo faz parte dos processos de construção de um software?",
+"correct_answer": "Análise de requisitos.",
+"incorrect_answers": [
+"Desenvolver projetos somente em Java.",
+"Teste de mesa.",
+"Desenvolver técnicas para construir softwares confiáveis e flexíveis."
+]
+},
+{
+"question": "O conjunto de atividades e resultados associados que resulta em um produto de software recebe o nome de: ",
+"correct_answer": "Processo de software.",
+"incorrect_answers": [
+"Engenharia de sistemas.",
+"Especificação de software.",
+"Métricas de software."
+]
+},
+{
+"question": "São consideradas metodologias ágeis de desenvolvimento de software: ",
+"correct_answer": "SCRUM e XP.",
+"incorrect_answers": [
+"SCRUM e RUP.",
+"Cascata e PRINCE2.",
+"DSDM e Cascata."
+]
+},
+{
+"question": "No RUP, a ênfase em arquitetura está na fase de: ",
+"correct_answer": "Elaboração.",
+"incorrect_answers": [
+"Implementação.",
+"Modelagem de negócio.",
+"Implantação."
+]
+},
+{
+"question": "São exemplos de requisitos externos: ",
+"correct_answer": "Requisitos legais.",
+"incorrect_answers": [
+"Requisitos de confiabilidade.",
+"Requisitos de interoperabilidade.",
+"Requisitos de desempenho."
+]
+},
+{
+"question": "Indique a alternativa correta.",
+"correct_answer": "O “mouse” é um periférico só de entrada.",
+"incorrect_answers": [
+"O teclado é um periférico de entrada e saída.",
+"O monitor é um periférico de entrada.",
+"A impressora é um periférico de entrada."
+]
+},
+{
+"question": "Para fazer a impressão de um documento no Word você tem algumas opções, uma delas é utilizar o atalho: ",
+"correct_answer": "CTRL + P.",
+"incorrect_answers": [
+"CTRL + I.",
+"CTRL + K.",
+"CTRL + O."
+]
+},
+{
+"question": "O padrão singleton permite que uma classe Java tenha apenas uma instância e fornece múltiplos pontos de acesso à classe.",
+"correct_answer": "Verdadeiro.",
+"incorrect_answers": [
+"Falso."
+]
+},
+{
+"question": "A Programação Orientada a Objetos está fundamentada na maneira de: ",
+"correct_answer": "Programar.",
+"incorrect_answers": [
+"Entender.",
+"Pesquisar.",
+"Decifrar."
+]
+},
+{
+"question": "Objetos são derivados de: ",
+"correct_answer": "Classes.",
+"incorrect_answers": [
+"Agentes.",
+"Atributos.",
+"Métodos."
+]
+},
+{
+"question": "A classe herdada é chamada de classe: ",
+"correct_answer": "Derivada, Subclasse ou Classe filha.",
+"incorrect_answers": [
+"Elementar.",
+"Primária.",
+"Secundária."
+]
+},
+{
+"question": "Com herança é possível o compartilhamento de: ",
+"correct_answer": "Atributos e operações.",
+"incorrect_answers": [
+"Equações.",
+"Situações.",
+"Objetos."
+]
+},
+{
+"question": "Qual é a estratégia da abstração?",
+"correct_answer": "Simplificação.",
+"incorrect_answers": [
+"Generalização.",
+"Encapsulamento.",
+"Auditoria."
+]
+},
+{
+"question": "Uma classe abstrata existe para servir de referência para a criação de outras classes ...",
+"correct_answer": "Concretas.",
+"incorrect_answers": [
+"Abstratas.",
+"Encapsuladas.",
+"Polimórficas."
+]
+},
+{
+"question": "A Classe Abstrata: ",
+"correct_answer": "Não pode ser instanciada.",
+"incorrect_answers": [
+"Não tem atributos nem métodos.",
+"É utilizada somente para entidade abstratas.",
+"É o oposto de classe concreta."
+]
+},
+{
+"question": "As partes das classes são: ",
+"correct_answer": "Nomes, atributos e métodos.",
+"incorrect_answers": [
+"Nomes, operações e métodos.",
+"Nomes, atributos e propriedades.",
+"Nomes, métodos e propriedades."
+]
+},
+{
+"question": "As visibilidades das Classes são: ",
+"correct_answer": "Protegida, pública e privada.",
+"incorrect_answers": [
+"Pública, particular e intermediária.",
+"Geral, intermediária e particular.",
+"Pública e intermediária."
+]
+},
+{
+"question": "Não é um dos princípios de orientação a objetos: ",
+"correct_answer": "Tarefas não realizadas por objetos por meio de requisição de serviços.",
+"incorrect_answers": [
+"Qualquer coisa do mundo pode ser um objeto.",
+"Cada objeto é originado a partir de uma classe.",
+"Classes são organizadas de forma hierárquica."
+]
+},
+{
+"question": "São atributos da Classe Professor: ",
+"correct_answer": "Nome, endereço, telefone.",
+"incorrect_answers": [
+"Nome, andar, correr, matrícula.",
+"Nome, falar, cor, telefone.",
+"Nome, lecionar, CPF, RG."
+]
+},
+{
+"question": "Qual Linguagem não é orientada a objetos?",
+"correct_answer": "Delphi.",
+"incorrect_answers": [
+"Simula.",
+"Smalltalk.",
+"Eiffel."
+]
+},
+{
+"question": "Uma classe C extend da Classe B que extend da classe A, sendo esta a supersclasse, qual a ordem de chama do construtor neste caso?",
+"correct_answer": "Construtor A, Construtor B, Construtor C.",
+"incorrect_answers": [
+"Construtor C, Construtor B, Construtor A.",
+"Construtor C, construtor A, Construtor B.",
+"Construtor B, Construtor A, Construtor C."
+]
+},
+{
+"question": "A declaração de uma variável que seja capaz de armazenar o nome completo de um aluno é: ",
+"correct_answer": "char nome[50];",
+"incorrect_answers": [
+"char nome;",
+"int nome[50];",
+"string nome;"
+]
+},
+{
+"question": "Qual das opções abaixo declara corretamente inteiro, real, caractere e string em C?",
+"correct_answer": "int num, float num2, char letra, char nome[20].",
+"incorrect_answers": [
+"int num, float num2, char letra, string nome.",
+"int num, real num2, char letra, char nome[20].",
+"int num, float num2, caract letra, string nome."
+]
+},
+{
+"question": "Quais são os especificadores de formato para as variáveis inteira, real, caractere e string?",
+"correct_answer": "%d, %f, %c, %s.",
+"incorrect_answers": [
+"%in, %r, %ca, %st.",
+"%i, %l, %c, %st.",
+"%n, %a, %h, %s."
+]
+},
+{
+"question": "A etapa que defino os espaços que vou utilizar no meu programa é: ",
+"correct_answer": "Declaração de variáveis.",
+"incorrect_answers": [
+"Início.",
+"Processamento.",
+"Exibição de variáveis."
+]
+},
+{
+"question": "Os operadores relacionais são usados para: ",
+"correct_answer": "Comparar valores.",
+"incorrect_answers": [
+"Combinar valores.",
+"Distinguir diferentes tipos de variáveis.",
+"Trocar variáveis por valores lógicos."
+]
+},
+{
+"question": "Quais dos seguintes operadores são aritméticos?",
+"correct_answer": "+.",
+"incorrect_answers": [
+"<<.",
+"||.",
+"&&."
+]
+},
+{
+"question": "A linguagem C é case sensitive, o que isso quer dizer?",
+"correct_answer": "É sensível a letras maiúsculas e minúsculas.",
+"incorrect_answers": [
+"Tem que compilar antes de executar.",
+"Antes de criar um programa deve-se incluir as bibliotecas.",
+"Nenhuma das alternativas."
+]
+}
+]
+}
