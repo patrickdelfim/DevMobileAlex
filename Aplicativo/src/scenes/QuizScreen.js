@@ -14,7 +14,7 @@ import QuizQuestion from '../components/quizQuestion';
  function QuizScreen(props) {
     
     
-    const [[mins, secs], setTime] = useState([parseInt(2), parseInt(0)])
+    const [[mins, secs], setTime] = useState([parseInt(0), parseInt(30)])
     const [questions, setQuestions] = useState(props.route.params.data)
     const [ActualQuestionindex, setActualQuestionindex] = useState(0)
     const [GameScore, setGameScore] = useState(0)

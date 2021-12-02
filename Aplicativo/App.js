@@ -7,6 +7,7 @@ import HomeScreen from './src/scenes/HomeScreen'
 import QuizScreen from './src/scenes/QuizScreen';
 import EndGameScreen from './src/scenes/EndGameScreen';
 import data from './src/assets/data.json';
+import ScoreScreen from './src/scenes/ScoreScreen';
 
 /*
     ============Alunos==================
@@ -30,6 +31,7 @@ export default function App() {
            <Stack.Screen name="Home" component={HomeScreen} /> 
           <Stack.Screen name="StartQuiz" component={QuizScreen} initialParams={{'data':jsonData}} />
           <Stack.Screen name="EndGame" component={EndGameScreen}  />
+          <Stack.Screen name="scoreScreen" component={ScoreScreen}  options={{ headerShown: true ,title: 'Score List' }}/>
       </Stack.Navigator>
     </NavigationContainer>
 

@@ -11,11 +11,34 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
       },
       containerHome:{
-        marginHorizontal:20,
+        marginHorizontal:10,
         height: "100%",
         alignItems:"center",
         justifyContent: "flex-start",
         
+    },
+    containerScore:{
+        flex: 1,
+        height: "100%",
+        width:'100%',
+        backgroundColor: '#f1faee',
+        alignItems:"center",
+        justifyContent: "flex-start",
+    },
+    scoreViewDisplay: {
+        minWidth: "100%",
+        borderBottomWidth:1,
+        paddingBottom: 10,
+        paddingTop: 10,
+        borderBottomColor: "black",
+    },
+    textScoreView:{
+        fontWeight: "bold",
+        color: "#1d3557",
+        textAlign: 'center',
+        fontSize: 23,
+        margin:0,
+        padding:1
     },
     textTitle:{
         paddingTop:20,
@@ -53,7 +76,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontWeight: "bold",
         color: "#1d3557",
-        marginTop:40
+        marginTop:20
     },
 
     logoImage:{
@@ -64,13 +87,21 @@ const styles = StyleSheet.create({
         zIndex : 1,
         alignItems: 'center',
         justifyContent: 'center',
-        marginVertical: 60,
+        marginTop:25,
+        marginBottom: 0,
         paddingVertical: 16,
-        paddingHorizontal: 72,
+        paddingHorizontal:10,
+        width:"auto",
         borderRadius: 10,
         elevation: 3,
         backgroundColor: '#457B9D',
     },
+    input: {
+        height: 40,
+        margin: 12,
+        borderWidth: 1,
+        padding: 10,
+      },
     btnText:{
         fontSize: 18,
         color: "#F1FAEE"
